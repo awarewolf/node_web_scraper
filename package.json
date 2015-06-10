@@ -1,0 +1,30 @@
+{
+  "name": "node_web_scraper",
+  "version": "1.0.0",
+  "description": "A command line program that can parse remote pages, read the html, and write the content that we care about to a file on disk.",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awarewolfyukon/node_web_scraper.git"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "command line",
+    "terminal",
+    "html"
+  ],
+  "author": "Simon Pregent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awarewolfyukon/node_web_scraper/issues"
+  },
+  "homepage": "https://github.com/awarewolfyukon/node_web_scraper",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.57.0"
+  }
+}
